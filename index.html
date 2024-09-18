@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20240915214048">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240918135833">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,54 +15,70 @@
 <body class="main">
 	<div class="wrapper">
 		<header class="header">
-			<div class="header__top">
-				<div class="container">
-					<a href="index.html" class="header__logo"><img src="img/logo-light.svg" alt="pdr.kh.ua"></a>
+			<div class="container">
+				<a href="index.html" class="header__logo"><img src="img/logo-light.svg" alt="pdr.kh.ua"></a>
 
-					<div class="header__navigation">
-						<nav class="header__menu">
-							<a href="index.html" class="header__menu-link">Главная</a>
-							<a href="page.html" class="header__menu-link">Цены</a>
-							<a href="page.html" class="header__menu-link">Работы</a>
-							<a href="page.html" class="header__menu-link">Контакты</a>
-						</nav>
+				<div class="header__navigation">
+					<nav class="header__menu">
+						<a href="#main" class="header__menu-link">Главная</a>
+						<a href="#price" class="header__menu-link">Цены</a>
+						<a href="#work" class="header__menu-link">Работы</a>
+						<a href="#services" class="header__menu-link">Услуги</a>
+					</nav>
 
-						<div class="header__contacts phones">
-							<a href="tel:0670777438" class="header__contact">
-								<img src="img/icons/kiyvstar.svg" alt="">
-								<span>+38 (067) 0777438</span>
-							</a>
-							<a href="tel:0990777437" class="header__contact">
-								<img src="img/icons/vodafone.svg" alt="">
-								<span>+38 (099) 0777437</span>
-							</a>
-						</div>
-
-						<div class="header__contacts">
-							<a href="#" class="header__contact">
-								<img src="img/icons/telegram.svg" alt="">
-								<span>Telegram</span>
-							</a>
-							<a href="#" class="header__contact">
-								<img src="img/icons/viber.svg" alt="">
-								<span>Viber</span>
-							</a>
-						</div>
+					<div class="header__contacts phones">
+						<a href="tel:0670777438" class="header__contact">
+							<img src="img/icons/kiyvstar.svg" alt="">
+							<span>+38 (067) 0777438</span>
+						</a>
+						<a href="tel:0990777437" class="header__contact">
+							<img src="img/icons/vodafone.svg" alt="">
+							<span>+38 (099) 0777437</span>
+						</a>
 					</div>
 
-					<div class="header__controls">
-						<a href="#" class="header__language">UA</a>
+					<div class="header__contacts">
+						<a href="#" class="header__contact">
+							<img src="img/icons/telegram.svg" alt="">
+							<span>Telegram</span>
+						</a>
+						<a href="#" class="header__contact">
+							<img src="img/icons/viber.svg" alt="">
+							<span>Viber</span>
+						</a>
+					</div>
+				</div>
 
-						<div class="header__menu-open">
-							<span></span>
-							<span></span>
-							<span></span>
-						</div>
+				<div class="header__controls">
+					<a href="#" class="header__language">UA</a>
+
+					<div class="header__menu-open">
+						<span></span>
+						<span></span>
+						<span></span>
 					</div>
 				</div>
 			</div>
+		</header>
 
-			<div class="header__bottom">
+		<div class="menu">
+			<div class="menu__close-button">
+				<span></span>
+				<span></span>
+			</div>
+
+			<div class="menu__logo"><img src="img/logo-black.svg" alt="pdr.kh.ua"></div>
+
+			<nav class="menu__list">
+				<a href="#main" class="menu__item">Главная</a>
+				<a href="#price" class="menu__item">Цены</a>
+				<a href="#work" class="menu__item">Работы</a>
+				<a href="#services" class="menu__item">Услуги</a>
+			</nav>
+		</div>
+
+		<main id="main" class="page">
+			<section class="header__bottom">
 				<div class="container">
 					<div class="header__image"><img src="img/man.webp" alt=""></div>
 
@@ -81,30 +97,8 @@
 						</div>
 					</div>
 				</div>
-			</div>
-		</header>
+			</section>
 
-		<div class="menu">
-			<div class="menu__close-button">
-				<span></span>
-				<span></span>
-			</div>
-
-			<div class="menu__logo"><img src="img/logo-black.svg" alt="pdr.kh.ua"></div>
-
-			<nav class="menu__list">
-				<a href="page.html" class="menu__item">Почему ПДР</a>
-				<a href="page.html" class="menu__item">Мастерская</a>
-				<a href="page.html" class="menu__item">Прайс-лист</a>
-				<a href="page.html" class="menu__item">примеры работ</a>
-				<a href="page.html" class="menu__item">Все работы</a>
-				<a href="page.html" class="menu__item">Дополнительные услуги</a>
-				<a href="page.html" class="menu__item">Мнение клиентов</a>
-				<a href="page.html" class="menu__item">SEO текст</a>
-			</nav>
-		</div>
-
-		<main class="page">
 			<section class="why">
 				<div class="container">
 					<h2 class="why__title title">
@@ -141,15 +135,15 @@
 					<img src="img/icons/work.svg" alt="">
 				</h2>
 
-				<div class="workshop__body">
-					<div class="workshop__item"><img src="img/works/image01.webp" alt="Image"></div>
-					<div class="workshop__item"><img src="img/works/image02.webp" alt="Image"></div>
-					<div class="workshop__item"><img src="img/works/image03.webp" alt="Image"></div>
-					<div class="workshop__item"><img src="img/works/image04.webp" alt="Image"></div>
+				<div class="workshop__body" data-gallery>
+					<a href=img/works/image01-4x.webp" class="workshop__item"><img src="img/works/image01.webp" alt="Image"></a>
+					<a href=img/works/image02-4x.webp" class="workshop__item"><img src="img/works/image02.webp" alt="Image"></a>
+					<a href=img/works/image03-4x.webp" class="workshop__item"><img src="img/works/image03.webp" alt="Image"></a>
+					<a href=img/works/image04-4x.webp" class="workshop__item"><img src="img/works/image04.webp" alt="Image"></a>
 				</div>
 			</section>
 
-			<section class="price">
+			<section id="price" class="price">
 				<div class="container">
 					<h2 class="price__title title white">
 						<span>Прайс-лист</span>
@@ -199,7 +193,7 @@
 				</div>
 			</section>
 
-			<section class="example">
+			<section id="work" class="example">
 				<div class="container">
 					<h2 class="example__title title">
 						<span>Примеры работ</span>
@@ -208,22 +202,22 @@
 
 					<div class="example__body">
 						<div class="example__slider swiper">
-							<div class="swiper-wrapper">
-								<div class="example__item swiper-slide">
+							<div class="swiper-wrapper" data-gallery>
+								<a href=img/works/image05-4x.webp" class="example__item swiper-slide">
 									<img src="img/works/image05.webp" alt="">
-								</div>
-								<div class="example__item swiper-slide">
+								</a>
+								<a href=img/works/image06-4x.webp" class="example__item swiper-slide">
 									<img src="img/works/image06.webp" alt="">
-								</div>
-								<div class="example__item swiper-slide">
+								</a>
+								<a href=img/works/image07-4x.webp" class="example__item swiper-slide">
 									<img src="img/works/image07.webp" alt="">
-								</div>
-								<div class="example__item swiper-slide">
+								</a>
+								<a href=img/works/image05-4x.webp" class="example__item swiper-slide">
 									<img src="img/works/image05.webp" alt="">
-								</div>
-								<div class="example__item swiper-slide">
+								</a>
+								<a href=img/works/image06-4x.webp" class="example__item swiper-slide">
 									<img src="img/works/image06.webp" alt="">
-								</div>
+								</a>
 							</div>
 
 							<div class="example__pagination"></div>
@@ -258,7 +252,7 @@
 				</div>
 			</section>
 
-			<section class="services">
+			<section id="services" class="services">
 				<div class="services__image"><img src="img/service-bg.webp" alt=""></div>
 
 				<div class="container">
@@ -270,23 +264,23 @@
 					<div class="services__slider swiper">
 						<div class="swiper-wrapper">
 							<div class="services__item swiper-slide">
-								<div class="services__item-image"><img src="img/services/image01.webp" alt=""></div>
-								<div class="services__item-text">Рихтовка поврежденных деталей</div>
+								<a href="#" class="services__item-image"><img src="img/services/image01.webp" alt=""></a>
+								<a href="#" class="services__item-text">Рихтовка поврежденных деталей</a>
 							</div>
 
 							<div class="services__item swiper-slide">
-								<div class="services__item-image"><img src="img/services/image02.webp" alt=""></div>
-								<div class="services__item-text">Восстановление геометрии кузова</div>
+								<a href="#" class="services__item-image"><img src="img/services/image02.webp" alt=""></a>
+								<a href="#" class="services__item-text">Восстановление геометрии кузова</a>
 							</div>
 
 							<div class="services__item swiper-slide">
-								<div class="services__item-image"><img src="img/services/image03.webp" alt=""></div>
-								<div class="services__item-text">Ремонт пластика автомобиля</div>
+								<a href="#" class="services__item-image"><img src="img/services/image03.webp" alt=""></a>
+								<a href="#" class="services__item-text">Ремонт пластика автомобиля</a>
 							</div>
 
 							<div class="services__item swiper-slide">
-								<div class="services__item-image"><img src="img/services/image04.webp" alt=""></div>
-								<div class="services__item-text">Полировка фар</div>
+								<a href="#" class="services__item-image"><img src="img/services/image04.webp" alt=""></a>
+								<a href="#" class="services__item-text">Полировка фар</a>
 							</div>
 						</div>
 
@@ -513,7 +507,7 @@
 		</footer>
 
 	</div>
-	<script src="js/app.min.js?_v=20240915214048"></script>
+	<script src="js/app.min.js?_v=20240918135833"></script>
 </body>
 
 </html>
